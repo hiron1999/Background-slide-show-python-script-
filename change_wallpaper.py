@@ -37,7 +37,7 @@ def run():
                                              # Make request to the api with the access key,
                                              # get responsse json data
 
-        r=rq.get('https://api.unsplash.com/search/photos?query={}&page={}&per_page=20&orientation=landscape&client_id=TY0ZBICL9ESyurmgYOLcBHkOfS13GQrQemd3iepjnqk'.format("".join(sys.argv[1:]),page_no))
+        r=rq.get('https://api.unsplash.com/search/photos?query={}&page={}&per_page=20&orientation=landscape&client_id=KEY'.format("".join(sys.argv[1:]),page_no))
         
         data=r.json()                            
         
