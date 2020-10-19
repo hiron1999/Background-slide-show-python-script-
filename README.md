@@ -9,7 +9,7 @@
 
 ***
 
-## *Tools Used :**
+## *Tools Used :*
 
 **
 		
@@ -30,7 +30,7 @@
 
 **
 
-## Requirements :**
+## Requirements :
 
 	This program is only for Windows 10 operating system
 
