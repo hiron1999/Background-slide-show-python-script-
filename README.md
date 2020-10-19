@@ -59,6 +59,7 @@ Open command prompt and run the command : `pip install requests`
  
  - Go to the link https://unsplash.com/developers
  - Create an developer account 
+ ![alt text](https://drive.google.com/file/d/1O4GKUFfn5y_vdQ5rQLFQtw-ld2ZX2n-v/view?usp=sharing)
  - Go to  'Your apps' tab and create a new demo app . Inside your app you will gate the access key of the API . 
  
 
