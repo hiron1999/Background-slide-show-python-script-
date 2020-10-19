@@ -38,9 +38,6 @@
    download this from (https://www.python.org/downloads/) and set the System path variable accordingly
    
 
- - you need to download the python 3 libraries . you can install it by using  pip (https://pip.pypa.io/en/stable/installing/) .
-After installing pip you can download the libraries using the command : `pip install library_name`
-
  - You need a stable internet connection to download images
 
 **
@@ -50,10 +47,7 @@ After installing pip you can download the libraries using the command : `pip ins
 **
 "*In this process you need to always connect with internet*"
 
-**Install library :**  os , ctypes ,time , threading , sys libraries are normaly come with python package .
-we need to install requests library.
-Open command prompt and run the command : `pip install requests`
-	
+
 
  **API setup** :
  
@@ -70,7 +64,7 @@ Open command prompt and run the command : `pip install requests`
 
  - First clone the github repo
  - Open **change_wallpaper.py** 
- - go to the line :
+ - go to the line 40:
  
  
  `r=rq.get('https://api.unsplash.com/search/photos?query={}&page={}&per_page=20&orientation=landscape&client_id=KEY'.format("".join(sys.argv[1:]),page_no))`
