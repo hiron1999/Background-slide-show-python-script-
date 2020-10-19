@@ -70,7 +70,7 @@ Open command prompt and run the command : `pip install requests`
  - First clone the github repo
  - Open **change_wallpaper.py** 
  - go to the line `r=rq.get('https://api.unsplash.com/search/photos?query={}&page={}&per_page=20&orientation=landscape&client_id=KEY'.format("".join(sys.argv[1:]),page_no))`
- and replace **KEY**(after client_id= ) with your own access key of the **unsplash api**  save the changes.
+ and replace **KEY**(after client_id= ) with your own access key of the **unsplash api** and  save the changes.
  
  - Open command prompt in windows and go to the directory where the repo downloaded
  - Enter the command : `python change_wallpaper.py  search_key` replace the **search_key** as your preference like ( sea,mountain,tree etc.) 
