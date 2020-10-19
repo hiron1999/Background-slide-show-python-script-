@@ -69,7 +69,11 @@ Open command prompt and run the command : `pip install requests`
 
  - First clone the github repo
  - Open **change_wallpaper.py** 
- - go to the line `r=rq.get('https://api.unsplash.com/search/photos?query={}&page={}&per_page=20&orientation=landscape&client_id=KEY'.format("".join(sys.argv[1:]),page_no))`
+ - go to the line :	
+ 
+ `r=rq.get('https://api.unsplash.com/search/photos?query={}&page={}&per_page=20&orientation=landscape&client_id=KEY'.format("".join(sys.argv[1:]),page_no))`
+ 
+ 
  and replace **KEY**(after client_id= ) with your own access key of the **unsplash api** and  save the changes.
  
  - Open command prompt in windows and go to the directory where the repo downloaded
@@ -81,6 +85,31 @@ To stop the process press `ctrl + c` in the command line if it not works kill th
 
  
     
+**How this program works?** 
+
+
+Logical approach:
+
+ - step 1 : Search for a image file
+ - step 2 : Download image and store it in a directory
+ - step 3 : Get the image files from a directory and change the background image
+
+Programming approach: 
+
+ 1. Create a directory  for storing image files
+ 2. Use requests library to send request to the API we created  passing parameters with access key .
+ 3. Get the request response convert it into JSON format to get the objects
+ 4. Get the URL of the image ,
+ 
+ Open a  '.jpg' file to write the bytes from the content of image URL.
+ 
+ After write operation close the file. save it in the directory "wallpapers".
+ 
+ 5. Store the image paths in a global list .
+ 6. Now create a separate thread to change the background images.
+ 
+ 
+In this program two separate thread used for increase the responsiveness  One thread is for download images and another is for change the background . the program uses sleep time of 2 minutes for changing the background wallpaper.
 
    
                       
