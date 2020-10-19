@@ -18,7 +18,7 @@ def change_wallpaper():            # This function used for set baground image
         img_path=os.getcwd()+"\\"+path     # get the absloute path of the image file
         time.sleep(120)                    # sleep time in sec
         ctypes.windll.user32.SystemParametersInfoW(20, 0, img_path , 0)     # this line set the baground image 
-        print("baground image changed ........",img_path)
+        print("background image changed ........",img_path)
         i=(i+1)%len(img_list)
         
 
