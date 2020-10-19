@@ -38,7 +38,7 @@ After installing pip you can download the libraries using the command : `pip ins
   
 
  - Go to the link https://unsplash.com/developers
- - Create an developer account![unsplash profile looks like this](https://drive.google.com/file/d/1O4GKUFfn5y_vdQ5rQLFQtw-ld2ZX2n-v/view?usp=sharing)
+ - Create an developer account ![unsplash account looks like this](https://drive.google.com/file/d/1O4GKUFfn5y_vdQ5rQLFQtw-ld2ZX2n-v/view?usp=sharing)
  
  - 
 
@@ -53,6 +53,10 @@ After installing pip you can download the libraries using the command : `pip ins
 
 After this the program will start and you can see the  background image changes in every 2-5 minutes.
 To stop the process press `ctrl + c` in the command line if it not works kill the process by close the command prompt window.
+
+
+ 
+    
 
 
    
