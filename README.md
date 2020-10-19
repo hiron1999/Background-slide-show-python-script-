@@ -51,7 +51,7 @@ After installing pip you can download the libraries using the command : `pip ins
 "*In this process you need to always connect with internet*"
 
 **Install library :**  os , ctypes ,time , threading , sys libraries are normaly come with python package .
-we need to install requests 
+we need to install requests library.
 Open command prompt and run the command : `pip install requests`
 	
 
