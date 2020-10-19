@@ -63,7 +63,7 @@ def run():
                     bacground_t.start()
                    
                     flag=1
-            print(img_url)
+#             print(img_url)
             
 
 if __name__ == "__main__":
