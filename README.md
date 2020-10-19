@@ -9,6 +9,10 @@
 
 ***
 
+## Outcome :
+[![Background change](https://github.com/hiron1999/Background-slide-show-python-script-/blob/main/rec1.gif)]
+
+
 ## *Tools Used :*
 
 **
